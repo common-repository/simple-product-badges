@@ -1,0 +1,23 @@
+{
+    "name": "joanrodas/custom-product-fields",
+    "description": "Add custom product fields to WooCommerce products programatically with ease.",
+    "keywords": ["plugin", "wordpress", "fields", "wp", "routing"],
+    "homepage": "https://github.com/joanrodas/custom-product-fields",
+    "license": "GPL-3.0+",
+    "authors": [
+      {
+        "name": "Joan Rodas Cusidó",
+        "email": "joan@sirvelia.com",
+        "homepage": "https://sirvelia.com",
+        "role": "Developer"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "CPF\\": "CPF/"
+      }
+    },
+    "require": {
+      "php": ">=7.4"
+    }
+}
